@@ -2,6 +2,8 @@ import {useState} from 'react';
 
 function ProductCard({ name, price }) {
   const [isBought, setIsBought] = useState(false);
+  
+
   function handleBuy(){
  setIsBought(true);
 }

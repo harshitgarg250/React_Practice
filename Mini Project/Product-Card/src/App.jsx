@@ -1,5 +1,6 @@
 import React from "react";
 import ProductCard from "./components/ProductCard";
+import LoginForm from "./components/LoginForm";
 
 const products = [
   { name: "iPhone 18 Pro", price: 160000 },
@@ -9,13 +10,16 @@ const products = [
 function App() {
   return (
     <div>
+     <LoginForm />
       {products.map((product, index) => {
         return (
+          
           <ProductCard
             key={index}
             name={product.name}
             price={product.price}
           />
+          
         );
       })}
     </div>
