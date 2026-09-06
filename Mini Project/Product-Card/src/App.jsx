@@ -4,7 +4,7 @@ import ProductCard from "./components/ProductCard";
 const products = [
   { name: "iPhone 18 Pro", price: 160000 },
   { name: "Samsung S25", price: 90000 },
-  { name: "OnePlus 13", price: 70000 },
+  { name: "OnePlus 13", price: 7000 },
 ];
 function App() {
   return (
