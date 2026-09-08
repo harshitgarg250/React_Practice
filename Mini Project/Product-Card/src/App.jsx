@@ -17,7 +17,7 @@ function App() {
           <ProductCard
             key={index}
             name={product.name}
-            price={product.price}
+            price={product.price} 
           />
           
         );

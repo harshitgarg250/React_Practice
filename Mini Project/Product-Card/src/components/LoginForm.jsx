@@ -4,8 +4,13 @@ function LoginForm() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  function handlleLoginBtn(e) {
+  
+  async function handlleLoginBtn(e) {
     e.preventDefault();
+    const response = await fetch("https://jsonplaceholder.typicode.com/users/1")
+
+    const data = await response.json();
+    console.log(data);
     if (!email) {
     setError("Email is required");
     return;
