@@ -1,12 +1,13 @@
 
-import Counter from "./components/Counter";
+import UserList from "./components/UserList";
+
 function App() {
   
   return (
     <div className="app">
       <h1>User Dashboard</h1>
-      <p className="subtitle">Welcome to my dashboard</p>
-      <Counter />
+
+      <UserList />
     </div>
   )
 }
