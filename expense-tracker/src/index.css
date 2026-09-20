@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 500px;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.expense-form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.expense-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.expense-form button,
+.container > button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  margin: 0;
+}
+
+.expense-list {
+  margin-top: 30px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.expense-item h3,
+.expense-item p {
+  margin: 4px 0;
+}
+
+.expense-item button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.total {
+  margin-top: 25px;
+}
